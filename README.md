@@ -4,9 +4,7 @@ Code to independently reproduce every experiment, figure, and table in:
 
 > Elakkat D. Gireesh and Varadraj P. Gurupur, *"Activation Gradient Slope as
 > an Architecture-General Indicator of Decision Certainty in Deep Neural
-> Networks: Cross-Architecture Evidence, Baseline Benchmarking, and a
-> Physics-of-Information Framework,"* Department of Electrical and Computer
-> Engineering, University of Central Florida, working paper, August 2026.
+> Networks: Cross-Architecture Evidence and Baseline Benchmarking" AdventHealth Orlando, University of Central Florida, Orlando working paper, August 2026.
 
 ## What's being tested
 
