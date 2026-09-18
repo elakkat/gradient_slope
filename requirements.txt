@@ -1,0 +1,23 @@
+# Core numerical / ML stack
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+scikit-learn>=1.3
+pandas>=2.0
+pyarrow>=14.0
+
+# Deep learning
+# If you need a specific CUDA build, install torch/torchvision manually first
+# per https://pytorch.org/get-started/locally/ , then re-run this file.
+torch>=2.1
+torchvision>=0.16
+
+# DistilBERT / SST-2 / QQP (auto-downloaded from HuggingFace on first run)
+transformers>=4.35
+datasets>=2.14
+
+# Optional: only used for the Word-report export in gradient_effect_mit_eeg.py
+# and gradient_effect_distilbert.py. Both scripts detect its absence and skip
+# the .docx output gracefully, so it is NOT required to reproduce any figure
+# or table in the paper.
+# python-docx>=1.1
