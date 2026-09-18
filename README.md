@@ -15,15 +15,7 @@ activation-gradient magnitude across layers is **negatively correlated**
 with a softmax-derived Certainty Index (CI), consistent with the predicted
 functional form `S_i ∝ (1 − CI²)`.
 
-**This is a self-critical paper, and this repo reproduces that framing
-faithfully, not just the favorable numbers.** Beyond the four-architecture
-correlation, the paper reports:
-- A **negative result**: an earlier draft's "slope-anomaly" adversarial
-  detector (claimed to beat plain CI at flagging adversarial inputs) did
-  **not** replicate on a retrained checkpoint or on two additional
-  architectures, and is the weakest of five detectors tested across an
-  FGSM/PGD epsilon sweep. The code here reproduces that stress test and
-  prints its actual measured AUCs each run rather than assuming an outcome.
+
 - Direct baseline benchmarking against softmax entropy, margin, and
   MC-dropout variance — the gradient slope is competitive but **not
   uniformly the best** detector.
